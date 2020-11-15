@@ -1,14 +1,9 @@
 import React from 'react'
 import Layout from '../../globalComponents/layout'
-import { Helmet } from 'react-helmet'
 
 const Home = () => {
     return (
-        <Layout>
-            <Helmet>
-                <title>Inicio | RCA</title>
-                <meta name="description" content="Inicio" />
-            </Helmet>
+        <Layout title="Inicio | RCA">
             Holi!
         </Layout>
     )
